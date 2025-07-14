@@ -1,0 +1,40 @@
+/* src/styles/globals.css */
+@import "tailwindcss";
+@tailwind utilities;
+
+@layer components {
+  /* This tells Tailwind to scan these classes */
+  
+  /* ===== CUSTOM ANIMATIONS ===== */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+  }
+
+  /* ===== UTILITY CLASSES ===== */
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  /* ===== COMPONENT CLASSES ===== */
+  .btn {
+    @apply px-6 py-2 rounded-lg font-medium transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-indigo-600 hover:bg-indigo-700 text-white;
+    @apply hover:shadow-md active:scale-95;
+  }
+}
+/* Add these utility classes */
+.course-level-beginner {
+  @apply bg-green-100 text-green-800;
+}
+
+.course-level-intermediate {
+  @apply bg-blue-100 text-blue-800;
+}
+
+.course-level-advanced {
+  @apply bg-purple-100 text-purple-800;
+}
