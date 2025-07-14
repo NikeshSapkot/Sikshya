@@ -1,12 +1,54 @@
-# React + Vite
+# Sikhyā - Interactive Learning Platform 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+An immersive learning experience with interactive courses, 3D visualizations, and live coding playground.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Interactive Learning
+- 🎯 Progress tracking with animated indicators
+- 📊 Gamified learning experience (XP, badges)
+- 🖥️ Integrated code playground with real-time output
+
+### Engaging Content
+- 🧪 3D STEM model viewer (Chemistry, Physics)
+- 📚 Course modules with interactive exercises
+- 🎮 Hands-on coding challenges
+
+### Modern UI
+- 🎨 Dark/Light mode toggle
+- ✨ Micro-interactions & smooth animations
+- 📱 Fully responsive design
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- ⚛️ React 18
+- 🎨 Tailwind CSS + Framer Motion
+- 🖥️ Monaco Editor (VS Code-like editing)
+- 🌀 Three.js (3D visualizations)
+
+**Backend:**
+- 🔥 Firebase (Authentication, Database)
+- 🚀 Node.js/Express (API routes)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js v16+
+- npm/yarn
+
+### Installation
+```bash
+# Clone the repository
+https://github.com/NikeshSapkot/Sikshya.git
+
+# Navigate to project
+cd sikhya
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
